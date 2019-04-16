@@ -15,6 +15,7 @@ find_package(catkin REQUIRED COMPONENTS
   std_msgs
   actionlib
   actionlib_msgs
+  uuv_sensor_plugins_ros_msgs
 )
 
 ## System dependencies are found with CMake's conventions
@@ -58,6 +59,7 @@ add_message_files(
   StringPair.msg
   StringArray.msg
   ExecutionStatus.msg
+  DVLCustom.msg
 )
 
 ## Generate services in the 'srv' folder
@@ -81,6 +83,7 @@ generate_messages(
   nav_msgs
   sensor_msgs
   std_msgs
+  uuv_sensor_plugins_ros_msgs
 )
 
 ################################################
