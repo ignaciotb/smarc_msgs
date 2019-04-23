@@ -118,7 +118,7 @@ generate_messages(
 catkin_package(
 #  INCLUDE_DIRS include
 #  LIBRARIES smarc_msgs
-#  CATKIN_DEPENDS geometry_msgs message_generation nav_msgs sensor_msgs std_msgs
+ CATKIN_DEPENDS geometry_msgs nav_msgs sensor_msgs std_msgs
 #  DEPENDS system_lib
 )
 
